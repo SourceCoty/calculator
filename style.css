@@ -1,0 +1,118 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 150px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b5b4b4;
+    border: black 2px solid;
+    height:550px; 
+    width: 350px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+    border: solid 2px #1f1f1f; 
+    width: 266px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+#upper {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    height: 25px;
+}
+
+#lower {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 36px;
+    margin-right: 7px;
+}
+
+.top {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#clear {
+    width: 145px;
+    height: 50px;
+    background: #fe7979;
+    border-radius: 5px;
+    font-size: 20px;
+    border: solid 2px #1f1f1f;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.numbers {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: solid 2px #1f1f1f;
+}
+
+.operator {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: solid 2px #1f1f1f;
+}
+
+.equals {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: solid 2px #1f1f1f;
+}
+
+#delete {
+    width: 145px;
+    height: 50px;
+    background: #6565fa;
+    border-radius: 5px;
+    font-size: 20px;
+    border: solid 2px #1f1f1f;
+}
+
+#decimal:disabled {
+    background-color: #efefef;
+    color: #000000;
+}
